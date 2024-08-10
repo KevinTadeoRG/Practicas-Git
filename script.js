@@ -12,9 +12,5 @@ function agregarALaPantalla(value) {
     document.getElementById('pantalla').value = '';
   }
   
- function borrarultimocaracter() {
-    const valorPantalla = document.getElementById('pantalla').value;
-    document.getElementById('pantalla').value = valorPantalla.slice(0,-1);
 
-  }
   
